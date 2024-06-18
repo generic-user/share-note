@@ -103,6 +103,24 @@ You may optionally share an unencrypted version of a note by using the frontmatt
 
 If you decide you want to share most notes unencrypted by default, then you can encrypt an individual note by using a frontmatter checkbox called `share_encrypted`.
 
+---
+
+## Self-deleting / expiring notes
+You can specify an expiry time on the settingspage if you want your note to automatically disappear / delete after the time has expired.
+
+The unit can be specified as months, days, hours, or minutes, with a minimum of 1 minute.
+
+_For example:_
+
+- 3 hours or
+- 15 minutes or
+- 1 month
+
+### Setting the expiry for an individual note
+You can set an expiry just for a specific note by adding a `share_expires` frontmatter text property, and adding an expiry time as defined above.
+
+---
+
 ## Troubleshooting
 
 See here: [Troubleshooting](https://docs.note.sx/troubleshooting)
